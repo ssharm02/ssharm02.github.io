@@ -136,8 +136,8 @@ header .navbar.inbody .navbar-nav{
 /* Portfolio effects*/
 
 .hovereffect {
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 85%;
   float: left;
   overflow: hidden;
   position: relative;
