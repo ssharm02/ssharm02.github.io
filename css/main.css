@@ -116,26 +116,26 @@ header .navbar.inbody .navbar-nav{
 /* About me */
 
 #about {
-  background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #50af8c, #b3dfdb);
+  background-color: #A8CD1B;
+  background-image: #F5F3EE;
   border-top: 20px solid rgba(72, 173, 86, .5);
 }
 
 #work {
-  background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #8663e7, #b3dfdb);
-  border-top: 20px solid rgba(72, 173, 86, .5);
+  background-color: #DFE2DB;
+  background-image: #F5F3EE;
+  border-top: 20px solid rgba(208, 217, 230, 0.5);
 }
 #education {
-  background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #045d74, #b3dfdb);
-  border-top: 20px solid rgba(9, 76, 107, 0.5);
+  background-color: #FFFFFF;
+  background-image: #F5F3EE;
+  border-top: 20px solid rgba(0, 0, 0, 0.5);
 }
 /*Portfolio */
 
 #portfolio {
   padding: 60px;
-  background-color: antiquewhite;
+  background-color: #F5F3EE;
 }
 
 #projects {
@@ -145,8 +145,8 @@ header .navbar.inbody .navbar-nav{
 /* Portfolio effects*/
 
 .hovereffect {
-  width: 85%;
-  height: 85%;
+  width: 80%;
+  height: 80%;
   float: left;
   overflow: hidden;
   position: relative;
