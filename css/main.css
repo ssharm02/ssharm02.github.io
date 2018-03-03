@@ -121,6 +121,11 @@ header .navbar.inbody .navbar-nav{
   border-top: 20px solid rgba(72, 173, 86, .5);
 }
 
+#work {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #50af8c, #b3dfdb);
+  border-top: 20px solid rgba(72, 173, 86, .5);
+}
 
 /*Portfolio */
 
