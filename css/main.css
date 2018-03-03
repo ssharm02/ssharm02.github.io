@@ -123,13 +123,13 @@ header .navbar.inbody .navbar-nav{
 
 #work {
   background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #50af8c, #b3dfdb);
+  background-image: linear-gradient(to bottom, #8663e7, #b3dfdb);
   border-top: 20px solid rgba(72, 173, 86, .5);
 }
 #education {
   background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #50af8c, #b3dfdb);
-  border-top: 20px solid rgba(72, 173, 86, .5);
+  background-image: linear-gradient(to bottom, #045d74, #b3dfdb);
+  border-top: 20px solid rgba(9, 76, 107, 0.5);
 }
 /*Portfolio */
 
