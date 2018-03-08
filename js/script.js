@@ -16,11 +16,11 @@ var projectData = [{
   image: ['../image/master.jpg'],
   site: 
   [
-    ['Github', 'fa-github', 'http://2am.ninja/twitch/']
+    ['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']
   ]
 }, {
   title: 'Crypto Coin Ticker',
-  text: '<p>Swift project, <a href="http://www.freecodecamp.com/challenges/zipline-build-a-wikipedia-viewer" target="_blank"><i>Crypto Currency Converter</i></a><br><p>Connects to crypto API, get real time prices and currency conversion<br>Made using Swift</p>',
+  text: '<p>Swift project, <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p>Connects to crypto API, get real time prices and currency conversion<br>Made using Swift</p>',
 
   image: ['../image/Crypto.png'],
   site: [
