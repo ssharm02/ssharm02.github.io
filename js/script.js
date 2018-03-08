@@ -1,46 +1,105 @@
-(function($, self) {
+$(document).ready(function() {
 
-    if (!$ || !self) {
-      return;
+var projectData = [{
+  title: 'Knight Tour',
+  text: '<p>C# Assignment, <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour</i></a><p>Features Huristic & non huristic method and GUI</p>',
+
+  image: ['../image/knightstour.png'],
+  site: 
+  [
+    ['Github', 'fa-github', 'https://github.com/ssharm02/Knights_Tour_Algorithm']
+  ]
+}, {
+  title: 'MasterMind',
+  text: '<p>Java 2 Assignment, <a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind</i></a><br><p>Numerical MasterMind game<br>Made using Java</p>',
+
+  image: ['../image/master.jpg'],
+  site: 
+  [
+    ['Github', 'fa-github', 'http://2am.ninja/twitch/']
+  ]
+}, {
+  title: 'Crypto Coin Ticker',
+  text: '<p>Swift project, <a href="http://www.freecodecamp.com/challenges/zipline-build-a-wikipedia-viewer" target="_blank"><i>Crypto Currency Converter</i></a><br><p>Connects to crypto API, get real time prices and currency conversion<br>Made using Swift</p>',
+
+  image: ['../image/Crypto.png'],
+  site: [
+    ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
+  ]
+}, {
+  title: 'Weather App',
+  text: '<p>A Mobile App Development project, <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><p>Made for mobile devices<b>Uses jQuery, HTML5, CSS and Charts.js</p>',
+
+  image: ['../image/weather.png'],
+  site: [
+    ['Github','fa-github', 'https://github.com/ssharm02/Mobile_Weather_App']
+  ]
+}, {
+  title: 'Free Code Camp',
+  text: '<p>FreeCodeCamp Certification Work, <a href="https://github.com/ssharm02/Free_Code_Camp_Work" target="_blank"><i>FreeCodeCamp Repository</i></a><br><p>Basic, Intermediate, Advance Algorithms and Projects<br>HTML5, CSS, jQuery, Javascript</p>',
+
+  image: ['../image/freecc2.png'],
+  site: [
+    ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
+  ]
+},
+
+{
+  title: 'Chat App iOS',
+  text: '<p>Project completed for a Udemy Course, <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>Chat App for iOS devices</i></a><br><p>Uses Google Firebase for authentication and storing messages<br>Made Using Swift</p>',
+
+  image: ['../image/chat.jpg'],
+  site: [
+    ['CodePen', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
+  ]
+}
+];
+
+  // add listener to all the cards for click flipping
+  function addListener() {
+    var cards = document.querySelectorAll(".card.effect_click");
+
+    for (var i = 0; i < cards.length; i++) {
+      clickListener(cards[i]);
     }
-  
-    for (var i = 0; i < self.properties.length; i++) {
-      var property = self.properties[i],
-        camelCased = StyleFix.camelCase(property),
-        PrefixCamelCased = self.prefixProperty(property, true);
-  
-      $.cssProps[camelCased] = PrefixCamelCased;
+
+    function clickListener(card) {
+      card.addEventListener("click", function() {
+        this.classList.toggle("flipped");
+      });
     }
-  
-  })(window.jQuery, window.PrefixFree);
-  
-  var hash = $(this).find('li.active a').attr('href');
-  if (hash !== '#featured') {
-    $('header nav').addClass('inbody');
-  } else {
-    $('header nav').removeClass('inbody');
   }
-  
-  $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
-    var hash = $(this).find('li.active a').attr('href');
-    if (hash !== '#featured') {
-      $('header nav').addClass('inbody');
-    } else {
-      $('header nav').removeClass('inbody');
-    }
-  });
-  
-  $(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
+
+  function showProjectCards() {
+    var html = '';
+
+    projectData.forEach(function(project) {
+      html += '<div class="col-sm-6 col-md-4">';
+      html += '<div class="card effect_click"><div class="card_front">';
+      html += '<figure><img class="img-responsive" src="img/' + project.image[0] + '">';
+      html += '<figcaption class="project-title">';
+      html += project.title;
+      html += '</figcaption></figure></div>';
+
+      html += '<div class="card_back"><figure>';
+      html += '<div class="project-title">' + project.title + '</div>';
+      html += '<figcaption">';
+      html += '<div class="project-body">' + project.text + '</div>';
+      html += '<div><a data-toggle="tooltip" title="' + project.site[0][0] + '" data-placement="top" href="' + project.site[0][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk0"><i class="fa ' + project.site[0][1] + '" aria-hidden="true"></i></a>';
+
+      if (typeof project.site[1] !== 'undefined') {
+        html += '<a data-toggle="tooltip" title="' + project.site[1][0] + '" data-placement="top" href="' + project.site[1][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk1"><i class="fa ' + project.site[1][1] + '" aria-hidden="true"></i></a>';
       }
+
+      html += '</div></figcaption></figure></div>';
+      html += '</div>';
+      html += '</div>';
     });
-  });
+
+    $('#theProjects').append(html);
+
+    addListener();
+  }
+  showProjectCards();
+    
+});
