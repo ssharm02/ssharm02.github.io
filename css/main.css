@@ -147,6 +147,7 @@ header .navbar.inbody .navbar-nav{
   }
 #contact {
   background-color: antiquewhite;
+  /* background-image: url("../image/clouds.png") */
 }
 
 #contact hr{

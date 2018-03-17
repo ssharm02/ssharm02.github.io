@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 var projectData = [{
-  title: 'Knight Tour',
+  title: 'Knights Tour',
   text: '<p>C# Assignment, <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour</i></a><p>Features Huristic & non huristic method and GUI</p>',
 
   image: ['../image/knightstour.png'],
@@ -101,5 +101,12 @@ var projectData = [{
     addListener();
   }
   showProjectCards();
-    
+  //Added smooth scrolling
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+     }, 500);
+});
 });
