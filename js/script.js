@@ -45,8 +45,8 @@ var projectData = [{
 },
 
 {
-  title: 'Chat App iOS',
-  text: '<p>Project completed for a Udemy Course, <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>Chat App for iOS devices</i></a><br><p>Uses Google Firebase for authentication and storing messages<br>Made Using Swift</p>',
+  title: 'WhatsApp Clone iOS',
+  text: '<p>Project completed for a Udemy Course, <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>whatsApp Clone for iOS devices</i></a><br><p>Uses Google Firebase for authentication and storing messages<br>Made Using Swift</p>',
 
   image: ['../image/chat.jpg'],
   site: [
