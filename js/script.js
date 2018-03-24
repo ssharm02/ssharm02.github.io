@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+var array = [];
 var projectData = [{
   title: 'Knights Tour C#',
   text: '<p>C# Assignment for C# class, <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour</i></a><p>Made using C# features huristic & non huristic methods and Windows Form GUI</p>',
@@ -97,8 +98,24 @@ var projectData = [{
     }
   }
 
+  /*
+  * Randomize projects 
+  */
+  function randomizeProjects(){
+    for (var i = projectData.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = projectData[i];
+      projectData[i] = projectData[j];
+      projectData[j] = temp;
+  }
+}
+
   function showProjectCards() {
     var html = '';
+
+    console.log(projectData.length);
+    //randomize the projects 
+    randomizeProjects();
 
     projectData.forEach(function(project) {
       html += '<div class="col-sm-6 col-md-4">';
@@ -128,7 +145,9 @@ var projectData = [{
     addListener();
   }
   showProjectCards();
-  //Added smooth scrolling
+  /*Added smooth/auto scrolling
+  *
+  * /
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 

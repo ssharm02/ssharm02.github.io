@@ -130,6 +130,7 @@ header .navbar.inbody .navbar-nav{
 }
 /*Portfolio */
 
+
 #portfolio {
   padding: 60px;
   background-color: #F5F3EE;
@@ -141,9 +142,9 @@ header .navbar.inbody .navbar-nav{
 
   /* contact */
  #contact h4 {
-    color: lightcoral;
-    font-size: 2em;
-   padding-bottom: 40px;
+  color: lightcoral;
+  font-size: 2em;
+  padding-bottom: 40px;
   }
 #contact {
   background-color: antiquewhite;
