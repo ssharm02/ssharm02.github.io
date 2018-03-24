@@ -52,6 +52,33 @@ var projectData = [{
   site: [
     ['CodePen', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
   ]
+},
+{
+  title: 'Make Change Java',
+  text: '<p>Java 2 Assignment <a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i></i></a><br><p>Made using Java and Java Scene Builder</p>',
+
+  image: ['../image/change.jpg'],
+  site: [
+    ['CodePen', 'fa-github', 'https://github.com/ssharm02/Make_Change_GUI']
+  ]
+},
+{
+  title: 'Encryption Java',
+  text: '<p>Java 2 Assignment <a href="https://github.com/ssharm02/Hash_Map_Encryption" target="_blank"><i></i></a><br><p>Made using Java hash maps and Java Scene Builder</p>',
+
+  image: ['../image/encrypt.jpg'],
+  site: [
+    ['CodePen', 'fa-github', 'https://github.com/ssharm02/Hash_Map_Encryption']
+  ]
+},
+{
+  title: 'Clima iOS',
+  text: '<p>Clima iOS <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i></i></a><br><p>Made using Swift, Cocoapods, LocationManager, Weather API</p>',
+
+  image: ['../image/clima.jpg'],
+  site: [
+    ['CodePen', 'fa-github', 'https://github.com/ssharm02/Clima_iOS']
+  ]
 }
 ];
 
