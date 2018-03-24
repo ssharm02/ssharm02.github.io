@@ -147,7 +147,6 @@ header .navbar.inbody .navbar-nav{
   }
 #contact {
   background-color: antiquewhite;
-  /* background-image: url("../image/clouds.png") */
 }
 
 #contact hr{
@@ -160,10 +159,11 @@ header .navbar.inbody .navbar-nav{
   margin-top: 5vh;
   width: 100%;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Questrial', sans-serif;;
+  font-family: 'Questrial', sans-serif;
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
 #portfolio {
   background-color: #f6f6f6;
   width: 100vw;

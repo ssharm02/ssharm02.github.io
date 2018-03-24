@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 var projectData = [{
-  title: 'Knights Tour',
-  text: '<p>C# Assignment, <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour</i></a><p>Features Huristic & non huristic method and GUI</p>',
+  title: 'Knights Tour C#',
+  text: '<p>C# Assignment for C# class, <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour</i></a><p>Made using C# features huristic & non huristic methods and Windows Form GUI</p>',
 
   image: ['../image/knightstour.png'],
   site: 
@@ -10,7 +10,7 @@ var projectData = [{
     ['Github', 'fa-github', 'https://github.com/ssharm02/Knights_Tour_Algorithm']
   ]
 }, {
-  title: 'MasterMind',
+  title: 'MasterMind Java',
   text: '<p>Java 2 Assignment, <a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind</i></a><br><p>Numerical MasterMind game<br>Made using Java</p>',
 
   image: ['../image/master.jpg'],
@@ -19,7 +19,7 @@ var projectData = [{
     ['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']
   ]
 }, {
-  title: 'Crypto Coin Ticker',
+  title: 'Crypto Ticker iOS',
   text: '<p>Swift project, <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p>Connects to crypto API, get real time prices and currency conversion<br>Made using Swift</p>',
 
   image: ['../image/crypto.jpg'],
@@ -27,7 +27,7 @@ var projectData = [{
     ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
   ]
 }, {
-  title: 'Weather App',
+  title: 'Weather App jQuery',
   text: '<p>A Mobile App Development project, <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><p>Made for mobile devices<b>Uses jQuery, HTML5, CSS and Charts.js</p>',
 
   image: ['../image/weather.png'],
