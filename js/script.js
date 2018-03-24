@@ -145,9 +145,11 @@ var projectData = [{
     addListener();
   }
   showProjectCards();
-  /*Added smooth/auto scrolling
-  *
-  * /
+  
+  /*
+  *Added auto smooth scroll
+  */
+
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
