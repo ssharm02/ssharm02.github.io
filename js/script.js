@@ -74,7 +74,7 @@ var projectData = [{
 },
 {
   title: 'Clima iOS',
-  text: '<p>Clima iOS, get location via location manager and show local weather, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i>Clima iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> Open Weather Map API</p>',
+  text: '<p>Clima iOS, get location via location manager and show local weather <br><b>URL: </b> <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i>Clima iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> Open Weather Map API</p>',
 
   image: ['../image/clima.jpg'],
   site: [
