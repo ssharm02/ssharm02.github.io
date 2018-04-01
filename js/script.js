@@ -11,7 +11,7 @@ var projectData = [{
   ]
 }, {
   title: 'MasterMind Java',
-  text: '<p>OOP Java 2 Assignment, numerical version of Mastermind <br><b>URL: </b><a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind Java</i></a><br><p><b>Code:</b> Java<br><b>GUI:</b> Java Scene Builder</p>',
+  text: '<p>OOP Java 2 Assignment. <br> Numerical version of popular Mastermind game <br><b>URL: </b><a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind Java</i></a><br><p><b>Code:</b> Java<br><b>GUI:</b> Java Scene Builder</p>',
 
   image: ['../image/master.jpg'],
   site: 
@@ -29,7 +29,7 @@ var projectData = [{
 }, 
 {
   title: 'Weather App jQuery',
-  text: '<p>A Mobile App Development, Get local weather via geolocation, visualize data using charts, search for weather <br> <b>URL: </b> <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><b>Code:</b> jQuery, HTML5, CSS, JavaScript<br><b>Data:</b> Open Weather Map API</p>',
+  text: '<p>Mobile App Development Final Project, Gets local weather via geolocation, visualize data using charts, search for weather in other countries <br> <b>URL: </b> <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><b>Code:</b> jQuery, HTML5, CSS, JavaScript<br><b>Data:</b> Open Weather Map API</p>',
 
   image: ['../image/weather.png'],
   site: [
@@ -46,7 +46,7 @@ var projectData = [{
 },
 {
   title: 'WhatsApp Clone iOS',
-  text: '<p>Project completed for a Udemy Course, store user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
+  text: '<p>Stores user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
 
   image: ['../image/chat.jpg'],
   site: [
@@ -55,7 +55,7 @@ var projectData = [{
 },
 {
   title: 'Make Change Java',
-  text: '<p>OOP Java 2 Assignment Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
+  text: '<p>OOP Java 2 Assignment. <br> Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
 
   image: ['../image/change.jpg'],
   site: [
