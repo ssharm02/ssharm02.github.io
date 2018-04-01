@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 var projectData = [{
   title: 'Knights Tour C#',
-  text: '<p>Assignment completed for C# during Summer 2017.  Implements "intelligent" heuristic method and non-intelligent method to traverse the chess board<br><b>URL: </b> <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour GitHub</i></a><p><b>Code:</b> C#<br><b>GUI: </b> Windows Forms</p>',
+  text: '<p>Assignment completed for C# during Summer 2017.  Implements "intelligent" heuristic method and non-intelligent method<br><b>URL: </b> <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour GitHub</i></a><p><b>Code:</b> C#<br><b>GUI: </b> Windows Forms</p>',
 
   image: ['../image/knightstour.png'],
   site: 
@@ -26,7 +26,8 @@ var projectData = [{
   site: [
     ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
   ]
-}, {
+}, 
+{
   title: 'Weather App jQuery',
   text: '<p>A Mobile App Development, Get local weather via geolocation, visualize data using charts, search for weather <br> <b>URL: </b> <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><b>Code:</b> jQuery, HTML5, CSS, JavaScript<br><b>Data:</b> Open Weather Map API</p>',
 
@@ -43,7 +44,6 @@ var projectData = [{
     ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
   ]
 },
-
 {
   title: 'WhatsApp Clone iOS',
   text: '<p>Project completed for a Udemy Course, store user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
@@ -64,7 +64,7 @@ var projectData = [{
 },
 {
   title: 'Encryption Java',
-  text: '<p>Java 2 Assignment.  Implements file reading and writing, encypt text from files and text-field, <br> <b>URL: </b><a href="https://github.com/ssharm02/Hash_Map_Encryption" target="_blank"><i>Encryption Java Link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java Scene Builder</p>',
+  text: '<p>OOP Java 2 Assignment.  Implements file reading and writing, encypt text from files and text-field, <br> <b>URL: </b><a href="https://github.com/ssharm02/Hash_Map_Encryption" target="_blank"><i>Encryption Java Link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java Scene Builder</p>',
 
   image: ['../image/encrypt.jpg'],
   site: [
