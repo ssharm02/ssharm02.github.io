@@ -29,7 +29,7 @@ var projectData = [{
 }, 
 {
   title: 'Weather App jQuery',
-  text: '<p>Mobile App Development Final Project, Gets local weather via geolocation, visualize data using charts, search for weather in other countries <br> <b>URL: </b> <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><b>Code:</b> jQuery, HTML5, CSS, JavaScript<br><b>Data:</b> Open Weather Map API</p>',
+  text: '<p>Mobile App Development Final Project, Gets local weather via geolocation, visualize data using charts.js <br><b>URL: </b> <a href="https://github.com/ssharm02/Mobile_Weather_App" target="_blank"><i>Mobile Weather App</i></a><br><b>Code:</b> jQuery, HTML5, CSS, JavaScript<br><b>Data:</b> Open Weather Map API</p>',
 
   image: ['../image/weather.png'],
   site: [

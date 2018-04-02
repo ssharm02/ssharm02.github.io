@@ -264,11 +264,11 @@ header .navbar.inbody .navbar-nav{
 }
 
 .card_front {
-  background-color: white;
+  background-color: #f5f8fa;
 }
 
 .card_back {
-  background-color: #fafffc;
+  background-color: #ecebec;
   -webkit-transform: rotateY(179deg);
   -ms-transform: rotateY(179deg);
   transform: rotateY(179deg);
