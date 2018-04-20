@@ -79,6 +79,15 @@ $(document).ready(function() {
     site: [
       ['Github', 'fa-github', 'https://github.com/ssharm02/Clima_iOS']
     ]
+  },
+  {
+    title: 'NutriFit iOS',
+    text: '<p>Capstone Project @ Sheridan. <br><b>URL: </b> <a href="https://github.com/ssharm02/Nutrition_App_iOS" target="_blank"><i>NutriFit iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Work in progress!</p>',
+
+    image: ['../image/Nutrition.jpg'],
+    site: [
+      ['Github', 'fa-github', 'https://github.com/ssharm02/Nutrition_App_iOS']
+    ]
   }
   ];
 
