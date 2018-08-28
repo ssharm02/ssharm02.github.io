@@ -114,7 +114,7 @@ header .navbar.inbody .navbar-nav{
 #about {
   background-color: #4b4b4b;
   background-image: #F5F3EE;
-  border-top: 20px solid rgba(72, 173, 86, .5);
+  border-top: 20px solid #1e272e;
 }
 
 #work {
@@ -125,7 +125,7 @@ header .navbar.inbody .navbar-nav{
 #education {
   background-color: #FFFFFF;
   background-image: #F5F3EE;
-  border-top: 20px solid rgba(0, 0, 0, 0.5);
+  border-top: 20px solid #F5F3EE;
 }
 #techStack {
   background-color: #ff9f43;
