@@ -8,7 +8,6 @@ body {
 
 img {
   max-width: 185px;
-
 }
 
 .page {
@@ -113,7 +112,7 @@ header .navbar.inbody .navbar-nav{
 /* About me */
 
 #about {
-  background-color: #A8CD1B;
+  background-color: #4b4b4b;
   background-image: #F5F3EE;
   border-top: 20px solid rgba(72, 173, 86, .5);
 }
@@ -128,7 +127,9 @@ header .navbar.inbody .navbar-nav{
   background-image: #F5F3EE;
   border-top: 20px solid rgba(0, 0, 0, 0.5);
 }
-/*Portfolio */
+#techStack {
+  background-color: #ff9f43;
+}
 
 
 #portfolio {
@@ -223,7 +224,7 @@ header .navbar.inbody .navbar-nav{
   -webkit-perspective: 2000px;
   -moz-perspective: 2000px;
   perspective: 2000px;
-  cursor: pointer;
+  cursor: grab;
 }
 
 .card img {
@@ -325,10 +326,75 @@ header .navbar.inbody .navbar-nav{
   padding-top: 10px;
   padding-bottom: 50px;
 }
-
-#socialicons .goodreads {
-    font-family: Arial, Sans-Serif;
-    font-size: 26px;
-    line-height: 25px;
-    vertical-align: middle;
+.devicon-git-plain {
+  font-size: 7rem
+}
+.devicon-android-plain {
+  font-size: 7rem
+}
+.devicon-android-plain  {
+  font-size: 7rem
+}
+.devicon-angularjs-plain  {
+  font-size: 7rem
+}
+.devicon-csharp-plain-wordmark {
+  font-size: 7rem
+}
+.devicon-dot-net-plain-wordmark {
+  font-size: 7rem
+}
+.devicon-apple-original {
+  font-size: 7rem
+}
+.devicon-github-plain-wordmark {
+  font-size: 7rem
+}
+.devicon-html5-plain {
+  font-size: 7rem
+}
+.devicon-java-plain {
+  font-size: 7rem
+}
+.devicon-intellij-plain{
+  font-size: 7rem
+}
+.devicon-javascript-plain {
+  font-size: 7rem
+}
+.devicon-jquery-plain {
+  font-size: 7rem
+}
+.devicon-linux-plain {
+  font-size: 7rem
+}
+.devicon-mysql-plain {
+  font-size: 7rem
+}
+.devicon-nodejs-plain-wordmark {
+  font-size: 7rem
+}
+.devicon-react-original {
+  font-size: 7rem
+}
+.devicon-swift-plain{
+  font-size: 7rem
+}
+.devicon-typescript-plain {
+  font-size: 7rem
+}
+.devicon-visualstudio-plain {
+  font-size: 7rem
+}
+.devicon-vuejs-plain {
+  font-size: 7rem
+}
+.devicon-tomcat-line {
+  font-size: 7rem
+}
+.devicon-c-plain {
+  font-size: 7rem
+}
+.devicon-css3-plain {
+  font-size: 7rem
 }
