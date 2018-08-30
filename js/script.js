@@ -178,8 +178,8 @@ $(document).ready(function() {
           enableRangeSelection: true,
           enableFilter: true,
           animateRows: true,
-          enableCellChangeFlash: true,
-          refreshCells: true,
+          enableCellChangeFlash: false,
+          refreshCells: false,
           enableColResize: true,
           
       };
