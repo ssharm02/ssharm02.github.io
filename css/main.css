@@ -130,7 +130,9 @@ header .navbar.inbody .navbar-nav{
 #techStack {
   background-color: #ff9f43;
 }
-
+#sheridanGrades {
+  background-color: #34ace0;
+}
 
 #portfolio {
   padding: 60px;
@@ -404,3 +406,11 @@ header .navbar.inbody .navbar-nav{
 .devicon-debian-plain {
   font-size: 10rem;
 }
+.ag-row-hover {
+  /* putting in !important so it overrides the theme's styling as it hovers the row also */
+  background-color: #dfdfff !important;
+}
+/* 
+.ag-column-hover {
+  background-color: #a29bfe;
+} */

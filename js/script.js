@@ -110,7 +110,6 @@ $(document).ready(function() {
         });
       }
     }
-
   /*
   * Randomize projects 
   */
@@ -161,14 +160,56 @@ $(document).ready(function() {
     }
     showProjectCards();
 
+});
 
-  $(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+(function() {
 
-    $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-     }, 500);
+  document.addEventListener('DOMContentLoaded', function() {
+
+      var gridDiv = document.querySelector('#myGrid');
+
+      var gridOptions = {
+          columnDefs: [
+              {headerName: 'Class', field: 'A', width: 500},
+              {headerName: 'Grade', field: 'B', width: 470},
+          ],
+          enableSorting: true,
+          filter: 'agTextColumnFilter',
+          enableRangeSelection: true,
+          enableFilter: true,
+          animateRows: true,
+          enableCellChangeFlash: true,
+          refreshCells: true,
+          enableColResize: true,
+          
+      };
+
+      new agGrid.Grid(gridDiv, gridOptions);
+      $.getJSON("../data/grades.json", function(json) {
+        gridOptions.api.setRowData(json);
     });
 
+    setInterval(function() {
+      var sort = [
+        {colId: 'A', sort: 'asc'},
+        {colId: 'B', sort: 'asc'}
+    ];
+    // TODO Make Grid more fancy 
+      $.getJSON("../data/grades.json", function(json) {
+            window.grades = json;
+            const rowCount = gridOptions.api.getDisplayedRowCount();
+            window.grades.sort(function() { return .5 - Math.random();});
+          //  for (let i = 0; i < 10; i++) {
+         //   let row = Math.floor(Math.random() * rowCount);
+            gridOptions.api.setRowData(grades);
+            enableCellChangeFlash=true;
+          //  gridOptions.api.flashCells();
+          //  gridOptions.api.refreshCells();
+          //  }
+          });
+        }, 8000);
+  });
+  
+  
 
-});
+})();
