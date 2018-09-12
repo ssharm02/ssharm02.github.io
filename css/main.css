@@ -431,8 +431,8 @@ header .navbar.inbody .navbar-nav{
   transition: all 0.5s ease-in-out;
 }
 
-#contentContainer :not(img) {
-  -webkit-filter: blur(5px);
+#contentContainer :not(:hover) {
+  filter: blur(5px);
 } 
 
 #certifications {
