@@ -414,3 +414,24 @@ header .navbar.inbody .navbar-nav{
 .ag-column-hover {
   background-color: #a29bfe;
 } */
+
+#certifications img:hover {
+  position: relative;
+  -webkit-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  -o-transform: scale(2.5);
+  transform: scale(2.5);
+  z-index: 1000;
+}
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#certifications {
+  background-color: #F6D155;
+  -webkit-filter: blur(5px);
+}
