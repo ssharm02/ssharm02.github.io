@@ -437,6 +437,12 @@ header .navbar.inbody .navbar-nav{
 
 #certifications {
   background-color: #F6D155;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 140px;
 }
+
+
 
 /* :not(img)  */
