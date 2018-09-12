@@ -431,7 +431,12 @@ header .navbar.inbody .navbar-nav{
   transition: all 0.5s ease-in-out;
 }
 
+#contentContainer :not(img) {
+  -webkit-filter: blur(5px);
+} 
+
 #certifications {
   background-color: #F6D155;
-  -webkit-filter: blur(5px);
 }
+
+/* :not(img)  */
