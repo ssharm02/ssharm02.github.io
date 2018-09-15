@@ -84,13 +84,23 @@ $(document).ready(function() {
   },
   {
     title: 'NutriFit iOS',
-    text: '<p>Capstone Project @ Sheridan. <br><b>URL: </b> <a href="https://github.com/ssharm02/Nutrition_App_iOS" target="_blank"><i>NutriFit iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Work in progress!</p>',
+    text: '<p>Abandoned Capstone Project @ Sheridan. <br><b>URL: </b> <a href="https://github.com/ssharm02/Nutrition_App_iOS" target="_blank"><i>NutriFit iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Halted!</p>',
 
     image: ['../image/Nutrition.jpg'],
     site: [
       ['Github', 'fa-github', 'https://github.com/ssharm02/Nutrition_App_iOS']
     ]
-  }
+  },
+  {
+    title: 'FlappyBird Android',
+    text: '<p>Android 2D-Game. <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>FlappyBird Android Github</i></a><br><p><b>Code:</b> Java, Android Studio, GDX Library Android<br><b>!</p>',
+
+    image: ['../image/flappybird.png'],
+    site: [
+      ['Github', 'fa-github', 'https://github.com/ssharm02/FlappyBird-Android_GDX']
+    ]
+  },
+
   ];
 
     // add listener to all the cards for click flipping
