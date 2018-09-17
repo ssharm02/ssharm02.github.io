@@ -19,14 +19,16 @@ img {
 
 #featured {
   text-align: center;
-  background-color: #475265;
-  background-image: url(https://i.imgur.com/kz4HCSz.gif);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: repeat;
+  background:#ff3f34;
+  /* background-color: #475265; */
+  /* background-image: url(https://i.imgur.com/kz4HCSz.gif); */
+  /* background-attachment: fixed; */
+  height: 600px;
+  /* background-size: cover; */
+  /* background-repeat: repeat; */
   color: white;
   padding: 200px;
-  padding-bottom: 650px;
+  /* padding-bottom: 650px; */
 }
 
 #featured p {
