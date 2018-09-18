@@ -105,9 +105,9 @@ $(document).ready(function() {
 
     // add listener to all the cards for click flipping
     function addListener() {
-      var cards = document.querySelectorAll(".card.effect_click");
+      let cards = document.querySelectorAll(".card.effect_click");
 
-      for (var i = 0; i < cards.length; i++) {
+      for (let i = 0; i < cards.length; i++) {
         clickListener(cards[i]);
       }
 
@@ -124,18 +124,90 @@ $(document).ready(function() {
   * Randomize projects 
   */
   function randomizeProjects(){
-    for (var i = projectData.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = projectData[i];
+    for (let i = projectData.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      let temp = projectData[i];
       projectData[i] = projectData[j];
       projectData[j] = temp;
   }
 }
 
-  function showProjectCards() {
-      var html = '';
+/*
+Graphing function
+*/
+$(function () {
+  let processed_json = [];   
+  $.getJSON('../data/graphs.json', function(data) {
+    console.log(data);
+      // Populate series
+      for (let i = 0; i < data.length; i++) {
+         processed_json.push([data[i].Skill, data[i].Level]);
+      }
+     // console.log('processed json is ',  );
+      
+      // draw chart
+      $('#graphContainer').highcharts({
+      chart: {
+          type: "bar",
+          backgroundColor: '#ff9f43',
+        //TOD Randomize graphs on periodic basis
+        //   events: {
+        //     load: function() {
+        //       console.log('processed json is ', processed_json);
+        //       setInterval(function () {
+        //         processed_json.sort( () => Math.random() - 0.5) },
+        //       1000);
+        //   }
+        // }
+      },
+      title: {
+          text: ""
+      },
+      xAxis: {
+          type: 'category',
+          allowDecimals: false,
+          title: {
+              text: ""
+          }
+      },
+      yAxis: {
+          title: {
+              text: ""
+          }
+      },
+    legend: {
+    enabled: false,
+    layout: 'vertical',
+    align: 'right',
+    verticalAlign: 'top',
+    x: -40,
+    y: 80,
+    floating: false,
+    borderWidth: 1,
+    backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+    shadow: true
+  },
+  credits: {
+    enabled: false
+  },
+      series: [{
+        name: '',
+        colorByPoint: true,
+        data: processed_json
+      }]
+  }); 
+});
+});
 
-      console.log(projectData.length);
+  function randomizeObjectArray(array) {
+    array.sort( () => Math.random() - 0.5);
+    console.log(array);
+    return array;
+  }
+  function showProjectCards() {
+      let html = '';
+
+      // console.log(projectData.length);
       //randomize the projects 
       randomizeProjects();
 
@@ -176,9 +248,9 @@ $(document).ready(function() {
 
   document.addEventListener('DOMContentLoaded', function() {
 
-      var gridDiv = document.querySelector('#myGrid');
+      let gridDiv = document.querySelector('#myGrid');
 
-      var gridOptions = {
+      let gridOptions = {
           columnDefs: [
               {headerName: 'Class', field: 'A', width: 500},
               {headerName: 'Grade', field: 'B', width: 470},
