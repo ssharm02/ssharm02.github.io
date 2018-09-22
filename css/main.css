@@ -413,6 +413,9 @@ header .navbar.inbody .navbar-nav{
   /* putting in !important so it overrides the theme's styling as it hovers the row also */
   background-color: #dfdfff !important;
 }
+.ag-tool-panel{
+  visibility: hidden;
+}
 /* 
 .ag-column-hover {
   background-color: #a29bfe;
