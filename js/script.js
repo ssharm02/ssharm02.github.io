@@ -285,7 +285,7 @@ $(function () {
          //   let row = Math.floor(Math.random() * rowCount);
             gridOptions.api.setRowData(grades);
             enableCellChangeFlash=true;
-          //  gridOptions.api.flashCells();
+            gridOptions.api.flashCells();
           //  gridOptions.api.refreshCells();
           //  }
           });
