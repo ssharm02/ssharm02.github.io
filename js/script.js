@@ -135,6 +135,8 @@ $(document).ready(function() {
 /*
 Graphing function
 */
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
 $(function () {
   let processed_json = [];   
   $.getJSON('../data/graphs.json', function(data) {
@@ -195,8 +197,11 @@ $(function () {
         colorByPoint: true,
         data: processed_json
       }]
-  }); 
-});
+          }); 
+
+        });
+    });
+  }
 });
 
   function randomizeObjectArray(array) {
@@ -206,7 +211,7 @@ $(function () {
   }
   function showProjectCards() {
       let html = '';
-
+   
       // console.log(projectData.length);
       //randomize the projects 
       randomizeProjects();
@@ -255,6 +260,7 @@ $(function () {
               {headerName: 'Class', field: 'A', width: 500},
               {headerName: 'Grade', field: 'B', width: 470},
           ],
+         
           enableSorting: true,
           filter: 'agTextColumnFilter',
           enableRangeSelection: true,
