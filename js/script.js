@@ -209,6 +209,7 @@ $(function () {
     console.log(array);
     return array;
   }
+
   function showProjectCards() {
       let html = '';
    
