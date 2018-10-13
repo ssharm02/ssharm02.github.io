@@ -11,22 +11,33 @@ $(document).ready(function() {
     [
       ['Github', 'fa-github', 'https://github.com/ssharm02/Knights_Tour_Algorithm']
     ]
-  }, {
-    title: 'MasterMind Java',
-    text: '<p>OOP Java 2 Assignment. <br> Numerical version of popular Mastermind game <br><b>URL: </b><a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind Java</i></a><br><p><b>Code:</b> Java<br><b>GUI:</b> System.out.println :P</p>',
+  }, 
+  // {
+  //   title: 'MasterMind Java',
+  //   text: '<p>OOP Java 2 Assignment. <br> Numerical version of popular Mastermind game <br><b>URL: </b><a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind Java</i></a><br><p><b>Code:</b> Java<br><b>GUI:</b> System.out.println :P</p>',
 
-    image: ['../image/master.jpg'],
-    site: 
-    [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']
-    ]
-  }, {
+  //   image: ['../image/master.jpg'],
+  //   site: 
+  //   [
+  //     ['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']
+  //   ]
+  // }, 
+  {
     title: 'Crypto Ticker iOS',
     text: '<p>Swift project.  Connects to a bitcoin API, get realtime currency conversion for various crypto coins. <br><b>URL: </b> <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> BitCoinAverage API</p>',
 
     image: ['../image/crypto.jpg'],
     site: [
       ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
+    ]
+  }, 
+  {
+    title: 'edu-counselor MERN',
+    text: '<p>Full stack MEARN application made using latest Javascript technologies. <br><b>URL: </b> <a href="https://github.com/ssharm02/edu-counselor" target="_blank"><i>React Web App</i></a><br><p><b>Code:</b> JavaScript<br><b>Stack:</b> mongoDB, Redux, React, nodeJS, JavaScript</p>',
+
+    image: ['../image/MERNStack.png'],
+    site: [
+      ['Github','fa-github', 'https://github.com/ssharm02/edu-counselor']
     ]
   }, 
   {
@@ -46,24 +57,24 @@ $(document).ready(function() {
       ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
     ]
   },
-  {
-    title: 'WhatsApp Clone iOS',
-    text: '<p>Stores user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
+  // {
+  //   title: 'WhatsApp Clone iOS',
+  //   text: '<p>Stores user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
 
-    image: ['../image/chat.jpg'],
-    site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
-    ]
-  },
-  {
-    title: 'Make Change Java',
-    text: '<p>OOP Java 2 Assignment. <br> Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
+  //   image: ['../image/chat.jpg'],
+  //   site: [
+  //     ['Github', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
+  //   ]
+  // },
+  // {
+  //   title: 'Make Change Java',
+  //   text: '<p>OOP Java 2 Assignment. <br> Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
 
-    image: ['../image/change.jpg'],
-    site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Make_Change_GUI']
-    ]
-  },
+  //   image: ['../image/change.jpg'],
+  //   site: [
+  //     ['Github', 'fa-github', 'https://github.com/ssharm02/Make_Change_GUI']
+  //   ]
+  // },
   {
     title: 'Encryption Java',
     text: '<p>OOP Java 2 Assignment.  Implements file reading and writing, encypt text from files and text-field, <br> <b>URL: </b><a href="https://github.com/ssharm02/Hash_Map_Encryption" target="_blank"><i>Encryption Java Link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java Scene Builder</p>',
@@ -73,15 +84,15 @@ $(document).ready(function() {
       ['Github', 'fa-github', 'https://github.com/ssharm02/Hash_Map_Encryption']
     ]
   },
-  {
-    title: 'Clima iOS',
-    text: '<p>Clima iOS, get location via location manager and show local weather <br><b>URL: </b> <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i>Clima iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> Open Weather Map API</p>',
+  // {
+  //   title: 'Clima iOS',
+  //   text: '<p>Clima iOS, get location via location manager and show local weather <br><b>URL: </b> <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i>Clima iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> Open Weather Map API</p>',
 
-    image: ['../image/clima.jpg'],
-    site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Clima_iOS']
-    ]
-  },
+  //   image: ['../image/clima.jpg'],
+  //   site: [
+  //     ['Github', 'fa-github', 'https://github.com/ssharm02/Clima_iOS']
+  //   ]
+  // },
   {
     title: 'NutriFit iOS',
     text: '<p>Abandoned Capstone Project @ Sheridan. <br><b>URL: </b> <a href="https://github.com/ssharm02/Nutrition_App_iOS" target="_blank"><i>NutriFit iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Halted!</p>',
@@ -209,6 +220,7 @@ $(function () {
     console.log(array);
     return array;
   }
+
   function showProjectCards() {
       let html = '';
    
