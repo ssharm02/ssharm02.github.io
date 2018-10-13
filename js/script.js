@@ -52,7 +52,7 @@ $(document).ready(function() {
     title: 'Free Code Camp',
     text: '<p>FreeCodeCamp JavaScript Work.  Contains lots of JavaScript learning material I completed, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Free_Code_Camp_Work" target="_blank"><i>FreeCodeCamp Repository</i></a><br></p>',
 
-    image: ['../image/freecc2.png'],
+    image: ['../image/JavaScriptSupport.jpg'],
     site: [
       ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
     ]
