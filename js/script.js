@@ -147,9 +147,9 @@ $(document).ready(function() {
 Graphing function
 */
 $(window).scroll(function () {
-  if ($(window).scrollTop() >= ($(document).height() - $(window).height() + 3940)) {
-    console.log('scroll top', $(window).scrollTop());
-    console.log('other cal')
+  if ($(window).scrollTop() >= ($(document).height() - $(window).height() - 10)) {
+    //console.log('scroll top', $(window).scrollTop());
+    //console.log('other cal' )
 $(function () {
   let processed_json = [];   
   $.getJSON('../data/graphs.json', function(data) {
