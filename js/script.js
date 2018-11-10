@@ -263,53 +263,53 @@ $(function () {
 
 });
 
-(function() {
+// (function() {
 
-  document.addEventListener('DOMContentLoaded', function() {
+//   document.addEventListener('DOMContentLoaded', function() {
 
-      let gridDiv = document.querySelector('#myGrid');
+//       let gridDiv = document.querySelector('#myGrid');
 
-      let gridOptions = {
-          columnDefs: [
-              {headerName: 'Class', field: 'A', width: 500},
-              {headerName: 'Grade', field: 'B', width: 470},
-          ],
+//       let gridOptions = {
+//           columnDefs: [
+//               {headerName: 'Class', field: 'A', width: 500},
+//               {headerName: 'Grade', field: 'B', width: 470},
+//           ],
          
-          enableSorting: true,
-          filter: 'agTextColumnFilter',
-          enableRangeSelection: true,
-          enableFilter: true,
-          animateRows: true,
-          enableCellChangeFlash: false,
-          refreshCells: false,
-          enableColResize: true,
+//           enableSorting: true,
+//           filter: 'agTextColumnFilter',
+//           enableRangeSelection: true,
+//           enableFilter: true,
+//           animateRows: true,
+//           enableCellChangeFlash: false,
+//           refreshCells: false,
+//           enableColResize: true,
           
-      };
+//       };
 
-      new agGrid.Grid(gridDiv, gridOptions);
-      $.getJSON("../data/grades.json", function(json) {
-        gridOptions.api.setRowData(json);
-    });
+//       new agGrid.Grid(gridDiv, gridOptions);
+//       $.getJSON("../data/grades.json", function(json) {
+//         gridOptions.api.setRowData(json);
+//     });
 
-    setInterval(function() {
-      var sort = [
-        {colId: 'A', sort: 'asc'},
-        {colId: 'B', sort: 'asc'}
-    ];
-    // TODO Make Grid more fancy 
-      $.getJSON("../data/grades.json", function(json) {
-            window.grades = json;
-            const rowCount = gridOptions.api.getDisplayedRowCount();
-            window.grades.sort(function() { return .5 - Math.random();});
-          //  for (let i = 0; i < 10; i++) {
-         //   let row = Math.floor(Math.random() * rowCount);
-            gridOptions.api.setRowData(grades);
-            enableCellChangeFlash=true;
-            gridOptions.api.flashCells();
-          //  gridOptions.api.refreshCells();
-          //  }
-          });
-        }, 8000);
-  });
+//     setInterval(function() {
+//       var sort = [
+//         {colId: 'A', sort: 'asc'},
+//         {colId: 'B', sort: 'asc'}
+//     ];
+//     // TODO Make Grid more fancy 
+//       $.getJSON("../data/grades.json", function(json) {
+//             window.grades = json;
+//             const rowCount = gridOptions.api.getDisplayedRowCount();
+//             window.grades.sort(function() { return .5 - Math.random();});
+//           //  for (let i = 0; i < 10; i++) {
+//          //   let row = Math.floor(Math.random() * rowCount);
+//             gridOptions.api.setRowData(grades);
+//             enableCellChangeFlash=true;
+//             gridOptions.api.flashCells();
+//           //  gridOptions.api.refreshCells();
+//           //  }
+//           });
+//         }, 8000);
+//   });
 
-})();
+// })();
