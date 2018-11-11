@@ -18,18 +18,18 @@
     },
     {
         "Skill": "Web Development",
-        "Level": 80 
+        "Level": 85 
     },
     {   
         "Skill": "Design Patterns",
-        "Level": 70 
+        "Level": 80 
     },
     {
         "Skill": "Databases",
         "Level": 80
     },
     {
-        "Skill": "Cyber Security",
-        "Level": 50
+        "Skill": "JavaScript",
+        "Level": 80
     }
 ]
