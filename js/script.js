@@ -145,77 +145,77 @@ $(document).ready(function() {
 
 /*
 Graphing function
-*/
-$(window).scroll(function () {
-  if ($(window).scrollTop() >= ($(document).height() - $(window).height() - 10)) {
-    //console.log('scroll top', $(window).scrollTop());
-    //console.log('other cal' )
-$(function () {
-  let processed_json = [];   
-  $.getJSON('../data/graphs.json', function(data) {
-    console.log(data);
-      // Populate series
-      for (let i = 0; i < data.length; i++) {
-         processed_json.push([data[i].Skill, data[i].Level]);
-      }
-     // console.log('processed json is ',  );
+// */
+// $(window).scroll(function () {
+//   if ($(window).scrollTop() >= ($(document).height() - $(window).height() - 10)) {
+//     //console.log('scroll top', $(window).scrollTop());
+//     //console.log('other cal' )
+// $(function () {
+//   let processed_json = [];   
+//   $.getJSON('../data/graphs.json', function(data) {
+//     console.log(data);
+//       // Populate series
+//       for (let i = 0; i < data.length; i++) {
+//          processed_json.push([data[i].Skill, data[i].Level]);
+//       }
+//      // console.log('processed json is ',  );
       
-      // draw chart
-      $('#graphContainer').highcharts({
-      chart: {
-          type: "bar",
-          backgroundColor: '#ff9f43',
-        //TOD Randomize graphs on periodic basis
-        //   events: {
-        //     load: function() {
-        //       console.log('processed json is ', processed_json);
-        //       setInterval(function () {
-        //         processed_json.sort( () => Math.random() - 0.5) },
-        //       1000);
-        //   }
-        // }
-      },
-      title: {
-          text: ""
-      },
-      xAxis: {
-          type: 'category',
-          allowDecimals: false,
-          title: {
-              text: ""
-          }
-      },
-      yAxis: {
-          title: {
-              text: ""
-          }
-      },
-    legend: {
-    enabled: false,
-    layout: 'vertical',
-    align: 'right',
-    verticalAlign: 'top',
-    x: -40,
-    y: 80,
-    floating: false,
-    borderWidth: 1,
-    backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-    shadow: true
-  },
-  credits: {
-    enabled: false
-  },
-      series: [{
-        name: '',
-        colorByPoint: true,
-        data: processed_json
-      }]
-          }); 
+//       // draw chart
+//       $('#graphContainer').highcharts({
+//       chart: {
+//           type: "bar",
+//           backgroundColor: '#ff9f43',
+//         //TOD Randomize graphs on periodic basis
+//         //   events: {
+//         //     load: function() {
+//         //       console.log('processed json is ', processed_json);
+//         //       setInterval(function () {
+//         //         processed_json.sort( () => Math.random() - 0.5) },
+//         //       1000);
+//         //   }
+//         // }
+//       },
+//       title: {
+//           text: ""
+//       },
+//       xAxis: {
+//           type: 'category',
+//           allowDecimals: false,
+//           title: {
+//               text: ""
+//           }
+//       },
+//       yAxis: {
+//           title: {
+//               text: ""
+//           }
+//       },
+//     legend: {
+//     enabled: false,
+//     layout: 'vertical',
+//     align: 'right',
+//     verticalAlign: 'top',
+//     x: -40,
+//     y: 80,
+//     floating: false,
+//     borderWidth: 1,
+//     backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+//     shadow: true
+//   },
+//   credits: {
+//     enabled: false
+//   },
+//       series: [{
+//         name: '',
+//         colorByPoint: true,
+//         data: processed_json
+//       }]
+//           }); 
 
-        });
-    });
-  }
-});
+//         });
+//     });
+//   }
+// });
 
   function randomizeObjectArray(array) {
     array.sort( () => Math.random() - 0.5);
