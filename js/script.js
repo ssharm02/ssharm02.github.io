@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   var projectData = [{
     title: 'Knights Tour C#',
-    text: '<p>Assignment completed for C# during Summer 2017.  Implements "intelligent" heuristic method and non-intelligent method<br><b>URL: </b> <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour GitHub</i></a><p><b>Code:</b> C#<br><b>GUI: </b> Windows Forms</p>',
+    text: '<p>Assignment completed for C# during Summer 2017.  Implements heuristic method and non-intelligent method<br><b>URL: </b> <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour GitHub</i></a><p><b>Code:</b> C#<br><b>GUI: </b> Windows Forms</p>',
 
     image: ['../image/knightstour.png'],
     site: 
@@ -145,75 +145,77 @@ $(document).ready(function() {
 
 /*
 Graphing function
-*/
-$(window).scroll(function () {
-  if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
-$(function () {
-  let processed_json = [];   
-  $.getJSON('../data/graphs.json', function(data) {
-    console.log(data);
-      // Populate series
-      for (let i = 0; i < data.length; i++) {
-         processed_json.push([data[i].Skill, data[i].Level]);
-      }
-     // console.log('processed json is ',  );
+// */
+// $(window).scroll(function () {
+//   if ($(window).scrollTop() >= ($(document).height() - $(window).height() - 10)) {
+//     //console.log('scroll top', $(window).scrollTop());
+//     //console.log('other cal' )
+// $(function () {
+//   let processed_json = [];   
+//   $.getJSON('../data/graphs.json', function(data) {
+//     console.log(data);
+//       // Populate series
+//       for (let i = 0; i < data.length; i++) {
+//          processed_json.push([data[i].Skill, data[i].Level]);
+//       }
+//      // console.log('processed json is ',  );
       
-      // draw chart
-      $('#graphContainer').highcharts({
-      chart: {
-          type: "bar",
-          backgroundColor: '#ff9f43',
-        //TOD Randomize graphs on periodic basis
-        //   events: {
-        //     load: function() {
-        //       console.log('processed json is ', processed_json);
-        //       setInterval(function () {
-        //         processed_json.sort( () => Math.random() - 0.5) },
-        //       1000);
-        //   }
-        // }
-      },
-      title: {
-          text: ""
-      },
-      xAxis: {
-          type: 'category',
-          allowDecimals: false,
-          title: {
-              text: ""
-          }
-      },
-      yAxis: {
-          title: {
-              text: ""
-          }
-      },
-    legend: {
-    enabled: false,
-    layout: 'vertical',
-    align: 'right',
-    verticalAlign: 'top',
-    x: -40,
-    y: 80,
-    floating: false,
-    borderWidth: 1,
-    backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-    shadow: true
-  },
-  credits: {
-    enabled: false
-  },
-      series: [{
-        name: '',
-        colorByPoint: true,
-        data: processed_json
-      }]
-          }); 
+//       // draw chart
+//       $('#graphContainer').highcharts({
+//       chart: {
+//           type: "bar",
+//           backgroundColor: '#ff9f43',
+//         //TOD Randomize graphs on periodic basis
+//         //   events: {
+//         //     load: function() {
+//         //       console.log('processed json is ', processed_json);
+//         //       setInterval(function () {
+//         //         processed_json.sort( () => Math.random() - 0.5) },
+//         //       1000);
+//         //   }
+//         // }
+//       },
+//       title: {
+//           text: ""
+//       },
+//       xAxis: {
+//           type: 'category',
+//           allowDecimals: false,
+//           title: {
+//               text: ""
+//           }
+//       },
+//       yAxis: {
+//           title: {
+//               text: ""
+//           }
+//       },
+//     legend: {
+//     enabled: false,
+//     layout: 'vertical',
+//     align: 'right',
+//     verticalAlign: 'top',
+//     x: -40,
+//     y: 80,
+//     floating: false,
+//     borderWidth: 1,
+//     backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+//     shadow: true
+//   },
+//   credits: {
+//     enabled: false
+//   },
+//       series: [{
+//         name: '',
+//         colorByPoint: true,
+//         data: processed_json
+//       }]
+//           }); 
 
-        });
-    });
-  }
-});
+//         });
+//     });
+//   }
+// });
 
   function randomizeObjectArray(array) {
     array.sort( () => Math.random() - 0.5);
@@ -261,53 +263,53 @@ $(function () {
 
 });
 
-(function() {
+// (function() {
 
-  document.addEventListener('DOMContentLoaded', function() {
+//   document.addEventListener('DOMContentLoaded', function() {
 
-      let gridDiv = document.querySelector('#myGrid');
+//       let gridDiv = document.querySelector('#myGrid');
 
-      let gridOptions = {
-          columnDefs: [
-              {headerName: 'Class', field: 'A', width: 500},
-              {headerName: 'Grade', field: 'B', width: 470},
-          ],
+//       let gridOptions = {
+//           columnDefs: [
+//               {headerName: 'Class', field: 'A', width: 500},
+//               {headerName: 'Grade', field: 'B', width: 470},
+//           ],
          
-          enableSorting: true,
-          filter: 'agTextColumnFilter',
-          enableRangeSelection: true,
-          enableFilter: true,
-          animateRows: true,
-          enableCellChangeFlash: false,
-          refreshCells: false,
-          enableColResize: true,
+//           enableSorting: true,
+//           filter: 'agTextColumnFilter',
+//           enableRangeSelection: true,
+//           enableFilter: true,
+//           animateRows: true,
+//           enableCellChangeFlash: false,
+//           refreshCells: false,
+//           enableColResize: true,
           
-      };
+//       };
 
-      new agGrid.Grid(gridDiv, gridOptions);
-      $.getJSON("../data/grades.json", function(json) {
-        gridOptions.api.setRowData(json);
-    });
+//       new agGrid.Grid(gridDiv, gridOptions);
+//       $.getJSON("../data/grades.json", function(json) {
+//         gridOptions.api.setRowData(json);
+//     });
 
-    setInterval(function() {
-      var sort = [
-        {colId: 'A', sort: 'asc'},
-        {colId: 'B', sort: 'asc'}
-    ];
-    // TODO Make Grid more fancy 
-      $.getJSON("../data/grades.json", function(json) {
-            window.grades = json;
-            const rowCount = gridOptions.api.getDisplayedRowCount();
-            window.grades.sort(function() { return .5 - Math.random();});
-          //  for (let i = 0; i < 10; i++) {
-         //   let row = Math.floor(Math.random() * rowCount);
-            gridOptions.api.setRowData(grades);
-            enableCellChangeFlash=true;
-            gridOptions.api.flashCells();
-          //  gridOptions.api.refreshCells();
-          //  }
-          });
-        }, 8000);
-  });
+//     setInterval(function() {
+//       var sort = [
+//         {colId: 'A', sort: 'asc'},
+//         {colId: 'B', sort: 'asc'}
+//     ];
+//     // TODO Make Grid more fancy 
+//       $.getJSON("../data/grades.json", function(json) {
+//             window.grades = json;
+//             const rowCount = gridOptions.api.getDisplayedRowCount();
+//             window.grades.sort(function() { return .5 - Math.random();});
+//           //  for (let i = 0; i < 10; i++) {
+//          //   let row = Math.floor(Math.random() * rowCount);
+//             gridOptions.api.setRowData(grades);
+//             enableCellChangeFlash=true;
+//             gridOptions.api.flashCells();
+//           //  gridOptions.api.refreshCells();
+//           //  }
+//           });
+//         }, 8000);
+//   });
 
-})();
+// })();
