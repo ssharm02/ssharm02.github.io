@@ -104,11 +104,11 @@ $(document).ready(function() {
   },
   {
     title: 'Helicopter Wars',
-    text: '<p>Android 2D-Game. Random stages, music, collision detection <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>Helicopter Wars Android Github</i></a><br><p><b>Code:</b> Java, Android Studio, GDX Library Android<br><b></p>',
+    text: '<p>Android 2D-Game. Random stages, music, collision detection <br><b>URL: </b> <a href="https://github.com/ssharm02/HelicopterWars-Libgdx" target="_blank"><i>Helicopter Wars Android Github</i></a><br><p><b>Code:</b> Java, Android Studio, GDX Library Android<br><b></p>',
 
     image: ['../image/HeliOne.png'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/FlappyBird-Android_GDX']
+      ['Github', 'fa-github', 'https://github.com/ssharm02/HelicopterWars-Libgdx']
     ]
   },
   {
