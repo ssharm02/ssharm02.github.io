@@ -52,7 +52,7 @@ $(document).ready(function() {
     title: 'Free Code Camp',
     text: '<p>FreeCodeCamp JavaScript Work.  Contains lots of JavaScript learning material I completed, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Free_Code_Camp_Work" target="_blank"><i>FreeCodeCamp Repository</i></a><br></p>',
 
-    image: ['../image/JavaScriptSupport.jpg'],
+    image: ['../image/JavaScript.png'],
     site: [
       ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
     ]
@@ -103,10 +103,19 @@ $(document).ready(function() {
     ]
   },
   {
-    title: 'Helicopter Wars Android',
+    title: 'Helicopter Wars',
     text: '<p>Android 2D-Game. Random stages, music, collision detection <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>Helicopter Wars Android Github</i></a><br><p><b>Code:</b> Java, Android Studio, GDX Library Android<br><b></p>',
 
     image: ['../image/HeliOne.png'],
+    site: [
+      ['Github', 'fa-github', 'https://github.com/ssharm02/FlappyBird-Android_GDX']
+    ]
+  },
+  {
+    title: 'Space Dodger iOS',
+    text: '<p>Spritkit Game. high scores dBase, tvOS, mapkit <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>Space Dodger Swift Spritekit Github</i></a><br><p><b>Code:</b> Swift, Xcode, SpriteKit<br><b></p>',
+
+    image: ['../image/UFO.png'],
     site: [
       ['Github', 'fa-github', 'https://github.com/ssharm02/FlappyBird-Android_GDX']
     ]
