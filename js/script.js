@@ -103,10 +103,10 @@ $(document).ready(function() {
     ]
   },
   {
-    title: 'FlappyBird Android',
-    text: '<p>Android 2D-Game. Random stages, music, collision detection <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>FlappyBird Android Github</i></a><br><p><b>Code:</b> Java, Android Studio, GDX Library Android<br><b></p>',
+    title: 'Helicopter Wars Android',
+    text: '<p>Android 2D-Game. Random stages, music, collision detection <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>Helicopter Wars Android Github</i></a><br><p><b>Code:</b> Java, Android Studio, GDX Library Android<br><b></p>',
 
-    image: ['../image/flappybird.png'],
+    image: ['../image/HeliOne.png'],
     site: [
       ['Github', 'fa-github', 'https://github.com/ssharm02/FlappyBird-Android_GDX']
     ]
