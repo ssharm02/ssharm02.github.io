@@ -57,15 +57,15 @@ $(document).ready(function() {
       ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
     ]
   },
-  // {
-  //   title: 'WhatsApp Clone iOS',
-  //   text: '<p>Stores user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
+  {
+    title: 'WhatsApp Clone iOS',
+    text: '<p>Stores user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
 
-  //   image: ['../image/chat.jpg'],
-  //   site: [
-  //     ['Github', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
-  //   ]
-  // },
+    image: ['../image/chat.jpg'],
+    site: [
+      ['Github', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
+    ]
+  },
   // {
   //   title: 'Make Change Java',
   //   text: '<p>OOP Java 2 Assignment. <br> Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
