@@ -22,15 +22,15 @@ $(document).ready(function() {
   //     ['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']
   //   ]
   // }, 
-  {
-    title: 'Crypto Ticker iOS',
-    text: '<p>Swift project.  Connects to a bitcoin API, get realtime currency conversion for various crypto coins. <br><b>URL: </b> <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> BitCoinAverage API</p>',
+  // {
+  //   title: 'Crypto Ticker iOS',
+  //   text: '<p>Swift project.  Connects to a bitcoin API, get realtime currency conversion for various crypto coins. <br><b>URL: </b> <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> BitCoinAverage API</p>',
 
-    image: ['../image/crypto.jpg'],
-    site: [
-      ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
-    ]
-  }, 
+  //   image: ['../image/crypto.jpg'],
+  //   site: [
+  //     ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
+  //   ]
+  // }, 
   {
     title: 'edu-counselor MERN',
     text: '<p>Full stack MEARN application made using latest Javascript technologies. <br><b>URL: </b> <a href="https://github.com/ssharm02/edu-counselor" target="_blank"><i>React Web App</i></a><br><p><b>Code:</b> JavaScript<br><b>Stack:</b> mongoDB, Redux, React, nodeJS, JavaScript</p>',
@@ -113,11 +113,11 @@ $(document).ready(function() {
   },
   {
     title: 'Space Dodger iOS',
-    text: '<p>Spritkit Game. high scores dBase, tvOS, mapkit <br><b>URL: </b> <a href="https://github.com/ssharm02/FlappyBird-Android_GDX" target="_blank"><i>Space Dodger Swift Spritekit Github</i></a><br><p><b>Code:</b> Swift, Xcode, SpriteKit<br><b></p>',
+    text: '<p>Spritkit Game. high scores dBase, tvOS, mapkit <br><b>URL: </b> <a href="https://github.com/ssharm02/SpaceDodger" target="_blank"><i>Space Dodger Swift Spritekit Github</i></a><br><p><b>Code:</b> Swift, Xcode, SpriteKit<br><b></p>',
 
     image: ['../image/UFO.png'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/FlappyBird-Android_GDX']
+      ['Github', 'fa-github', 'https://github.com/ssharm02/SpaceDodger']
     ]
   },
 
