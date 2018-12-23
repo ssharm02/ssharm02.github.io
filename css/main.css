@@ -19,7 +19,7 @@ img {
 
 #featured {
   text-align: center;
-  background:#3c40c6;
+  background:#00539C;
   /* background-color: #475265; */
   /* background-image: url(https://i.imgur.com/kz4HCSz.gif); */
   /* background-attachment: fixed; */
@@ -115,20 +115,20 @@ header .navbar.inbody .navbar-nav{
 /* About me */
 
 #about {
-  background-color: #74b9ff;
-  background-image: #F5F3EE;
-  border-top: 20px solid #1e272e;
+  background-color: #B4B7BA;
+  /* background-image: #F5F3EE; */
+  /* border-top: 20px solid #1e272e; */
 }
 
 #work {
   background-color: #DFE2DB;
-  background-image: #F5F3EE;
-  border-top: 20px solid rgba(208, 217, 230, 0.5);
+  /* background-image: #F5F3EE; */
+  /* border-top: 20px solid rgba(208, 217, 230, 0.5); */
 }
 #education {
   background-color: #FFFFFF;
-  background-image: #F5F3EE;
-  border-top: 20px solid #F5F3EE;
+  /* background-image: #F5F3EE; */
+  /* border-top: 20px solid #F5F3EE; */
 }
 #techStack {
   background-color: #ff9f43;
