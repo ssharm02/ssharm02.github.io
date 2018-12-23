@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   
 
-  var projectData = [{
+  let projectData = [{
     title: 'Knights Tour C#',
     text: '<p>Assignment completed for C# during Summer 2017.  Implements heuristic method and non-intelligent method<br><b>URL: </b> <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour GitHub</i></a><p><b>Code:</b> C#<br><b>GUI: </b> Windows Forms</p>',
 
@@ -124,14 +124,14 @@ $(document).ready(function() {
   ];
 
     // add listener to all the cards for click flipping
-    function addListener() {
+    addListener = () => {
       let cards = document.querySelectorAll(".card.effect_click");
 
       for (let i = 0; i < cards.length; i++) {
         clickListener(cards[i]);
       }
 
-      function clickListener(card) {
+    function clickListener (card) {
         card.addEventListener("mouseover", function() {
           this.classList.toggle("flipped");
         });
@@ -143,7 +143,7 @@ $(document).ready(function() {
   /*
   * Randomize projects 
   */
-  function randomizeProjects(){
+  randomizeProjects = () => {
     for (let i = projectData.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       let temp = projectData[i];
@@ -151,6 +151,113 @@ $(document).ready(function() {
       projectData[j] = temp;
   }
 }
+
+
+  showProjectCards = () => {
+      let html = '';
+   
+      // console.log(projectData.length);
+      //randomize the projects 
+      randomizeProjects();
+
+      projectData.forEach(function(project) {
+        html += '<div class="col-sm-6 col-md-4">';
+        html += '<div class="card effect_click"><div class="card_front">';
+        html += '<figure><img class="img-responsive" src="img/' + project.image[0] + '">';
+        html += '<figcaption class="project-title">';
+        html += project.title;
+        html += '</figcaption></figure></div>';
+
+        html += '<div class="card_back"><figure>';
+        html += '<div class="project-title">' + project.title + '</div>';
+        html += '<figcaption">';
+        html += '<div class="project-body">' + project.text + '</div>';
+        html += '<div><a data-toggle="tooltip" title="' + project.site[0][0] + '" data-placement="top" href="' + project.site[0][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk0"><i class="fa ' 
+        + project.site[0][1] + '" aria-hidden="true"></i></a>';
+
+        if (typeof project.site[1] !== 'undefined') {
+          html += '<a data-toggle="tooltip" title="' + project.site[1][0] + '" data-placement="top" href="' + project.site[1][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk1"><i class="fa '
+          + project.site[1][1] + '" aria-hidden="true"></i></a>';
+        }
+
+        html += '</div></figcaption></figure></div>';
+        html += '</div>';
+        html += '</div>';
+      });
+
+      $('#theProjects').append(html);
+
+      addListener();
+    }
+    showProjectCards();
+
+});
+
+
+
+
+
+
+
+/*
+Un-used code, might implement later
+
+*/
+
+
+
+// (function() {
+
+//   document.addEventListener('DOMContentLoaded', function() {
+
+//       let gridDiv = document.querySelector('#myGrid');
+
+//       let gridOptions = {
+//           columnDefs: [
+//               {headerName: 'Class', field: 'A', width: 500},
+//               {headerName: 'Grade', field: 'B', width: 470},
+//           ],
+         
+//           enableSorting: true,
+//           filter: 'agTextColumnFilter',
+//           enableRangeSelection: true,
+//           enableFilter: true,
+//           animateRows: true,
+//           enableCellChangeFlash: false,
+//           refreshCells: false,
+//           enableColResize: true,
+          
+//       };
+
+//       new agGrid.Grid(gridDiv, gridOptions);
+//       $.getJSON("../data/grades.json", function(json) {
+//         gridOptions.api.setRowData(json);
+//     });
+
+//     setInterval(function() {
+//       var sort = [
+//         {colId: 'A', sort: 'asc'},
+//         {colId: 'B', sort: 'asc'}
+//     ];
+//     // TODO Make Grid more fancy 
+//       $.getJSON("../data/grades.json", function(json) {
+//             window.grades = json;
+//             const rowCount = gridOptions.api.getDisplayedRowCount();
+//             window.grades.sort(function() { return .5 - Math.random();});
+//           //  for (let i = 0; i < 10; i++) {
+//          //   let row = Math.floor(Math.random() * rowCount);
+//             gridOptions.api.setRowData(grades);
+//             enableCellChangeFlash=true;
+//             gridOptions.api.flashCells();
+//           //  gridOptions.api.refreshCells();
+//           //  }
+//           });
+//         }, 8000);
+//   });
+
+// })();
+
+
 
 /*
 Graphing function
@@ -226,99 +333,9 @@ Graphing function
 //   }
 // });
 
-  function randomizeObjectArray(array) {
-    array.sort( () => Math.random() - 0.5);
-    console.log(array);
-    return array;
-  }
 
-  function showProjectCards() {
-      let html = '';
-   
-      // console.log(projectData.length);
-      //randomize the projects 
-      randomizeProjects();
-
-      projectData.forEach(function(project) {
-        html += '<div class="col-sm-6 col-md-4">';
-        html += '<div class="card effect_click"><div class="card_front">';
-        html += '<figure><img class="img-responsive" src="img/' + project.image[0] + '">';
-        html += '<figcaption class="project-title">';
-        html += project.title;
-        html += '</figcaption></figure></div>';
-
-        html += '<div class="card_back"><figure>';
-        html += '<div class="project-title">' + project.title + '</div>';
-        html += '<figcaption">';
-        html += '<div class="project-body">' + project.text + '</div>';
-        html += '<div><a data-toggle="tooltip" title="' + project.site[0][0] + '" data-placement="top" href="' + project.site[0][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk0"><i class="fa ' 
-        + project.site[0][1] + '" aria-hidden="true"></i></a>';
-
-        if (typeof project.site[1] !== 'undefined') {
-          html += '<a data-toggle="tooltip" title="' + project.site[1][0] + '" data-placement="top" href="' + project.site[1][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk1"><i class="fa '
-          + project.site[1][1] + '" aria-hidden="true"></i></a>';
-        }
-
-        html += '</div></figcaption></figure></div>';
-        html += '</div>';
-        html += '</div>';
-      });
-
-      $('#theProjects').append(html);
-
-      addListener();
-    }
-    showProjectCards();
-
-});
-
-// (function() {
-
-//   document.addEventListener('DOMContentLoaded', function() {
-
-//       let gridDiv = document.querySelector('#myGrid');
-
-//       let gridOptions = {
-//           columnDefs: [
-//               {headerName: 'Class', field: 'A', width: 500},
-//               {headerName: 'Grade', field: 'B', width: 470},
-//           ],
-         
-//           enableSorting: true,
-//           filter: 'agTextColumnFilter',
-//           enableRangeSelection: true,
-//           enableFilter: true,
-//           animateRows: true,
-//           enableCellChangeFlash: false,
-//           refreshCells: false,
-//           enableColResize: true,
-          
-//       };
-
-//       new agGrid.Grid(gridDiv, gridOptions);
-//       $.getJSON("../data/grades.json", function(json) {
-//         gridOptions.api.setRowData(json);
-//     });
-
-//     setInterval(function() {
-//       var sort = [
-//         {colId: 'A', sort: 'asc'},
-//         {colId: 'B', sort: 'asc'}
-//     ];
-//     // TODO Make Grid more fancy 
-//       $.getJSON("../data/grades.json", function(json) {
-//             window.grades = json;
-//             const rowCount = gridOptions.api.getDisplayedRowCount();
-//             window.grades.sort(function() { return .5 - Math.random();});
-//           //  for (let i = 0; i < 10; i++) {
-//          //   let row = Math.floor(Math.random() * rowCount);
-//             gridOptions.api.setRowData(grades);
-//             enableCellChangeFlash=true;
-//             gridOptions.api.flashCells();
-//           //  gridOptions.api.refreshCells();
-//           //  }
-//           });
-//         }, 8000);
-//   });
-
-// })();
+  // randomizeObjectArray = (array) => {
+  //   array.sort( () => Math.random() - 0.5);
+  //   console.log(array);
+  //   return array;
+  // }
