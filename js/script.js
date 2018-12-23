@@ -9,7 +9,7 @@ $(document).ready(function() {
     image: ['../image/knightstour.png'],
     site: 
     [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Knights_Tour_Algorithm']
+      ['Github', 'f09b', 'https://github.com/ssharm02/Knights_Tour_Algorithm']
     ]
   }, 
   // {
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     image: ['../image/MERNStack.png'],
     site: [
-      ['Github','fa-github', 'https://github.com/ssharm02/edu-counselor']
+      ['Github','fab fa-github', 'https://github.com/ssharm02/edu-counselor']
     ]
   }, 
   {
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     image: ['../image/weather.png'],
     site: [
-      ['Github','fa-github', 'https://github.com/ssharm02/Mobile_Weather_App']
+      ['Github','fab fa-github', 'https://github.com/ssharm02/Mobile_Weather_App']
     ]
   }, {
     title: 'Free Code Camp',
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
     image: ['../image/JavaScript.png'],
     site: [
-      ['Github','fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
+      ['Github','fab fa-github', 'https://github.com/ssharm02/Free_Code_Camp_Work']
     ]
   },
   {
@@ -63,7 +63,7 @@ $(document).ready(function() {
 
     image: ['../image/chat.jpg'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
+      ['Github', 'fab fa-github', 'https://github.com/ssharm02/Chat_App_iOS']
     ]
   },
   // {
@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     image: ['../image/encrypt.jpg'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Hash_Map_Encryption']
+      ['Github', 'fab fa-github', 'https://github.com/ssharm02/Hash_Map_Encryption']
     ]
   },
   // {
@@ -99,7 +99,7 @@ $(document).ready(function() {
 
     image: ['../image/Nutrition.jpg'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/Nutrition_App_iOS']
+      ['Github', 'fab fa-github', 'https://github.com/ssharm02/Nutrition_App_iOS']
     ]
   },
   {
@@ -108,7 +108,7 @@ $(document).ready(function() {
 
     image: ['../image/HeliOne.png'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/HelicopterWars-Libgdx']
+      ['Github', 'fab fa-github', 'https://github.com/ssharm02/HelicopterWars-Libgdx']
     ]
   },
   {
@@ -117,7 +117,7 @@ $(document).ready(function() {
 
     image: ['../image/UFO.png'],
     site: [
-      ['Github', 'fa-github', 'https://github.com/ssharm02/SpaceDodger']
+      ['Github', 'fab fa-github', 'https://github.com/ssharm02/SpaceDodger']
     ]
   },
 
