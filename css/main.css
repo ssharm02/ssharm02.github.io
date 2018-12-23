@@ -19,7 +19,7 @@ img {
 
 #featured {
   text-align: center;
-  background:#00539C;
+  /* background:#00539C; */
   /* background-color: #475265; */
   background-image: url(https://i.imgur.com/f93wWND.mp4);
   background-attachment: fixed;
