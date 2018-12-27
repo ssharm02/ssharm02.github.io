@@ -33,11 +33,11 @@ $(document).ready(function() {
   // }, 
   {
     title: 'edu-counselor MERN',
-    text: '<p>Full stack MEARN application made using latest Javascript technologies. <br><b>URL: </b> <a href="https://github.com/ssharm02/edu-counselor" target="_blank"><i>React Web App</i></a><br><p><b>Code:</b> JavaScript<br><b>Stack:</b> mongoDB, Redux, React, nodeJS, JavaScript</p>',
+    text: '<p>Full stack MEARN application made using latest Javascript technologies. <br><b>URL: </b> <a href="https://cryptic-ocean-62097.herokuapp.com/" target="_blank"><i>React Web App</i></a><br><p><b>Code:</b> JavaScript<br><b>Stack:</b> mongoDB, Redux, React, nodeJS, JavaScript</p>',
 
-    image: ['../image/MERNStack.png'],
+    image: ['../image/EduCoun.png'],
     site: [
-      ['Github','fab fa-github', 'https://github.com/ssharm02/edu-counselor']
+      ['Github','fab fa-github', 'https://cryptic-ocean-62097.herokuapp.com/']
     ]
   }, 
   {
