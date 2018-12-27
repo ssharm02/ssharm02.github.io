@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   
-
+//Project cards
   let projectData = [{
     title: 'Knights Tour C#',
     text: '<p>Assignment completed for C# during Summer 2017.  Implements heuristic method and non-intelligent method<br><b>URL: </b> <a href="https://github.com/ssharm02/Knights_Tour_Algorithm" target="_blank"><i>Knights Tour GitHub</i></a><p><b>Code:</b> C#<br><b>GUI: </b> Windows Forms</p>',
