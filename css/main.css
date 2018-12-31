@@ -419,6 +419,15 @@ header .navbar.inbody .navbar-nav{
 .devicon-debian-plain {
   font-size: 10rem;
 }
+.devicon-express-original {
+  font-size: 10rem;
+}
+.devicon-heroku-plain-wordmark  {
+  font-size: 10rem;
+}
+.devicon-docker-plain {
+  font-size: 10rem;
+}
 .ag-row-hover {
   /* putting in !important so it overrides the theme's styling as it hovers the row also */
   background-color: #dfdfff !important;
