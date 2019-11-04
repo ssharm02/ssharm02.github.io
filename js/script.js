@@ -8,7 +8,7 @@ $(document).ready(function() {
 
       image: ["../image/knightstour.png"],
       site: [
-        ["Github", "f09b", "https://github.com/ssharm02/Knights_Tour_Algorithm"]
+        ["Github", "fa fa-github", "https://github.com/ssharm02/Knights_Tour_Algorithm"]
       ]
     },
     {
@@ -112,7 +112,7 @@ $(document).ready(function() {
 
       image: ["../image/UFO.png"],
       site: [
-        ["Github", "fab fa-github", "https://github.com/ssharm02/SpaceDodger"]
+        ["Github", `fa fa-github`, "https://github.com/ssharm02/SpaceDodger"]
       ]
     }
   ];
