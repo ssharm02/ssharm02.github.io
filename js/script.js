@@ -8,7 +8,11 @@ $(document).ready(function() {
 
       image: ["../image/knightstour.png"],
       site: [
-        ["Github", "fa fa-github", "https://github.com/ssharm02/Knights_Tour_Algorithm"]
+        [
+          "Github",
+          "fa fa-github",
+          "https://github.com/ssharm02/Knights_Tour_Algorithm"
+        ]
       ]
     },
     {
@@ -114,6 +118,46 @@ $(document).ready(function() {
       site: [
         ["Github", `fa fa-github`, "https://github.com/ssharm02/SpaceDodger"]
       ]
+    },
+    {
+      title: "Make Change Java",
+      text:
+        '<p>OOP Java 2 Assignment. <br> Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
+
+      image: ["../image/change.jpg"],
+      site: [
+        ["Github", "fa-github", "https://github.com/ssharm02/Make_Change_GUI"]
+      ]
+    },
+    {
+      title: "Clima iOS",
+      text:
+        '<p>Clima iOS, get location via location manager and show local weather <br><b>URL: </b> <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i>Clima iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> Open Weather Map API</p>',
+
+      image: ["../image/clima.jpg"],
+      site: [["Github", "fa-github", "https://github.com/ssharm02/Clima_iOS"]]
+    },
+    {
+      title: "MasterMind Java",
+      text:
+        '<p>OOP Java 2 Assignment. <br> Numerical version of popular Mastermind game <br><b>URL: </b><a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind Java</i></a><br><p><b>Code:</b> Java<br><b>GUI:</b> System.out.println :P</p>',
+
+      image: ["../image/mastermind_logo_new.jpg"],
+      site: [["Github", "fa-github", "https://github.com/ssharm02/Master-Mind"]]
+    },
+    {
+      title: "Crypto Ticker iOS",
+      text:
+        '<p>Swift project.  Connects to a bitcoin API, get realtime currency conversion for various crypto coins. <br><b>URL: </b> <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> BitCoinAverage API</p>',
+
+      image: ["../image/crypto.jpg"],
+      site: [
+        [
+          "Github",
+          "fa-github",
+          "https://github.com/ssharm02/Crypto_Coin_Ticker_iOS"
+        ]
+      ]
     }
   ];
 
@@ -204,43 +248,6 @@ $(document).ready(function() {
 Un-used code, might implement later
 
 */
-// {
-//   title: 'Make Change Java',
-//   text: '<p>OOP Java 2 Assignment. <br> Shows user bill coins to dispense when change is entered., <br><b>URL: </b><a href="https://github.com/ssharm02/Make_Change_GUI" target="_blank"><i>Make Change GitHub link</i></a><br><b>Code:</b> Java <br><b>GUI: </b>Java FX</p>',
-
-//   image: ['../image/change.jpg'],
-//   site: [
-//     ['Github', 'fa-github', 'https://github.com/ssharm02/Make_Change_GUI']
-//   ]
-// },
-// {
-//   title: 'Clima iOS',
-//   text: '<p>Clima iOS, get location via location manager and show local weather <br><b>URL: </b> <a href="https://github.com/ssharm02/Clima_iOS" target="_blank"><i>Clima iOS Github</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> Open Weather Map API</p>',
-
-//   image: ['../image/clima.jpg'],
-//   site: [
-//     ['Github', 'fa-github', 'https://github.com/ssharm02/Clima_iOS']
-//   ]
-// },
-// {
-//   title: 'MasterMind Java',
-//   text: '<p>OOP Java 2 Assignment. <br> Numerical version of popular Mastermind game <br><b>URL: </b><a href="https://github.com/ssharm02/Master-Mind" target="_blank"><i>MasterMind Java</i></a><br><p><b>Code:</b> Java<br><b>GUI:</b> System.out.println :P</p>',
-
-//   image: ['../image/master.jpg'],
-//   site:
-//   [
-//     ['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']
-//   ]
-// },
-// {
-//   title: 'Crypto Ticker iOS',
-//   text: '<p>Swift project.  Connects to a bitcoin API, get realtime currency conversion for various crypto coins. <br><b>URL: </b> <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> BitCoinAverage API</p>',
-
-//   image: ['../image/crypto.jpg'],
-//   site: [
-//     ['Github','fa-github', 'https://github.com/ssharm02/Crypto_Coin_Ticker_iOS']
-//   ]
-// },
 
 // (function() {
 
