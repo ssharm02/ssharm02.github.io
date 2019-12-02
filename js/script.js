@@ -146,17 +146,13 @@ $(document).ready(function() {
       site: [["Github", "fa-github", "https://github.com/ssharm02/Master-Mind"]]
     },
     {
-      title: "Crypto Ticker iOS",
+      title: "Jeopardy Angular",
       text:
-        '<p>Swift project.  Connects to a bitcoin API, get realtime currency conversion for various crypto coins. <br><b>URL: </b> <a href="https://github.com/ssharm02/Crypto_Coin_Ticker_iOS" target="_blank"><i>Crypto Currency Converter</i></a><br><p><b>Code:</b> Swift<br><b>Data:</b> BitCoinAverage API</p>',
+        '<p>Angular project.  Connects to opentdb API, get random questions. <br><b>URL: </b> <a href="https://github.com/ssharm02/JeopardyAngular" target="_blank"><i>Angular Jeopardy Game</i></a><br><p><b>Code:</b> Angular<br></p>',
 
-      image: ["../image/crypto.jpg"],
+      image: ["../image/Jeopardy.jpg"],
       site: [
-        [
-          "Github",
-          "fa-github",
-          "https://github.com/ssharm02/Crypto_Coin_Ticker_iOS"
-        ]
+        ["Github", "fa-github", "https://github.com/ssharm02/JeopardyAngular"]
       ]
     }
   ];
