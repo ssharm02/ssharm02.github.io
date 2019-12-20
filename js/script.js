@@ -62,7 +62,7 @@ $(document).ready(function() {
       ]
     },
     {
-      title: 'WhatsApp Clone Swift',
+      title: 'Chat App Swift',
       Developed: 'January 2018 for iOS class @ Sheridan',
       text:
         '<p>Stores user text messages on Google Firebase. User registeration & authentication also handeled via Firebase, <br> <b>URL: </b> <a href="https://github.com/ssharm02/Chat_App_iOS" target="_blank"><i>WhatsApp Clone</i></a><br><p><b>Code:</b> Swift<br><b>Database:</b> Google Firebase</p>',
@@ -144,7 +144,7 @@ $(document).ready(function() {
       site: [['Github', 'fa-github', 'https://github.com/ssharm02/Master-Mind']]
     },
     {
-      title: 'Jeopardy Angular 7',
+      title: 'Jeopardy Angular',
       text:
         '<p>Angular project.  Connects to opentdb API, get random questions. <br><b>URL: </b> <a href="https://github.com/ssharm02/JeopardyAngular" target="_blank"><i>Angular Jeopardy Game</i></a><br><p><b>Code:</b> Angular<br></p>',
 
