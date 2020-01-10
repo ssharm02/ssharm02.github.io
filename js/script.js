@@ -27,7 +27,7 @@ $(document).ready(function() {
         [
           'Github',
           'fab fa-github',
-          'https://www.youtube.com/watch?v=K_cq7YzAh8M/'
+          'https://github.com/ssharm02/edu_counsellor'
         ]
       ]
     },
