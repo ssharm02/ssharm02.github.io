@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  //Project cards
   const projectData = [
     {
       title: 'Knights Tour C#',
@@ -25,9 +24,9 @@ $(document).ready(function() {
       image: ['../image/EduCoun.PNG'],
       site: [
         [
-          'Github',
-          'fab fa-github',
-          'https://github.com/ssharm02/edu_counsellor'
+          'Youtube',
+          'fab fa-youtube',
+          'https://www.youtube.com/watch?v=K_cq7YzAh8M&feature=youtu.be'
         ]
       ]
     },
@@ -187,8 +186,6 @@ $(document).ready(function() {
   showProjectCards = () => {
     let html = '';
 
-    // console.log(projectData.length);
-    //randomize the projects
     randomizeProjects();
 
     projectData.forEach(function(project) {
