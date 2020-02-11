@@ -19,7 +19,7 @@ $(document).ready(function() {
       title: 'edu-counselor React',
       Developed: 'Sep 2018 - Dec 2018 for Sheridan Capstone Project',
       text:
-        '<p>Full stack MEARN application made using latest Javascript technologies. <br><b>URL: </b> <a href="https://cryptic-ocean-62097.herokuapp.com/" target="_blank"><i>React Web App</i></a><br><p><b>Code:</b> JavaScript<br><b>Stack:</b> mongoDB, Redux, React, nodeJS, JavaScript</p>',
+        '<p>Full stack MEARN application made using latest Javascript technologies. <br><b>URL: </b> <a href="https://www.youtube.com/watch?v=K_cq7YzAh8M&feature=youtu.be" target="_blank"><i>React Web App</i></a><br><p><b>Code:</b> JavaScript<br><b>Stack:</b> mongoDB, Redux, React, nodeJS, JavaScript</p>',
 
       image: ['../image/EduCoun.PNG'],
       site: [
